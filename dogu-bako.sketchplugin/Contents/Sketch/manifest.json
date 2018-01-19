@@ -1,0 +1,38 @@
+{
+  "author" : "sue71",
+  "commands" : [
+    {
+      "script" : "change-scale/index.js",
+      "handler" : "onRun",
+      "shortcut" : "command alt j",
+      "name" : "Change scale",
+      "identifier" : "change-scale"
+    },
+    {
+      "script" : "search-symbol-by/index.js",
+      "handler" : "onRun",
+      "shortcut" : "command alt k",
+      "name" : "Search layer",
+      "identifier" : "search-layer"
+    },
+    {
+      "script" : "assets/index.js",
+      "handler" : "onRun",
+      "shortcut" : "command alt l",
+      "name" : "Assets",
+      "identifier" : "assets"
+    }
+  ],
+  "menu": {
+    "items": [
+      "change-scale",
+      "search-layer",
+      "assets"
+    ]
+  },
+  "identifier" : "com.sketchapp.sue71.dogu-bako",
+  "version" : "1.0",
+  "description" : "Sketch tool box",
+  "authorEmail" : "s.masaki07@gmail.com",
+  "name" : "dogu-bako"
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "es5",
+    "experimentalDecorators": true
+  },
+  "lib": [
+    "dom",
+    "es5"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "formChecker": true,
+    "useWebpackText": true
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

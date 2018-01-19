@@ -1,0 +1,36 @@
+{
+  "name": "dogu-bako",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "build:search": "./node_modules/.bin/webpack --config webpack.search-layer.js",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "watch:search": "./node_modules/.bin/webpack-dev-server --config webpack.search-layer.js",
+    "watch:assets": "./node_modules/.bin/webpack-dev-server --config webpack.assets.js"
+  },
+  "author": "https://github.com/sue71",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "~2.13.7",
+    "react": "~16.0.0",
+    "react-dom": "~16.0.0",
+    "webpack": "~3.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "~16.0.15",
+    "@types/react-dom": "~16.0.2",
+    "css-loader": "~0.28.7",
+    "file-loader": "~1.1.5",
+    "html-webpack-plugin": "~2.30.1",
+    "less-loader": "~4.0.5",
+    "postcss-loader": "~2.0.8",
+    "style-loader": "~0.19.0",
+    "ts-loader": "~3.0.3",
+    "typescript": "~2.5.3",
+    "url-loader": "~0.6.2",
+    "webpack-dev-server": "~2.9.3",
+    "webpack-merge": "~4.1.1"
+  }
+}
